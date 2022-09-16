@@ -2,11 +2,11 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { useState } from "react";
 
 const Sponsor = () => {
-  const [clicked, setClicked] = useState(false);
-  const [clicked2, setClicked2] = useState(false);
-  const [clicked3, setClicked3] = useState(false);
-  const [clicked4, setClicked4] = useState(false);
-  const [clicked5, setClicked5] = useState(false);
+  const [clicked, setClicked] = useState(true);
+  const [clicked2, setClicked2] = useState(true);
+  const [clicked3, setClicked3] = useState(true);
+  const [clicked4, setClicked4] = useState(true);
+  const [clicked5, setClicked5] = useState(true);
 
   const click = () => {
     setClicked(true);
